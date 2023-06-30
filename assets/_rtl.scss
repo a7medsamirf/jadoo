@@ -1,0 +1,12 @@
+
+.v-application--is-rtl{
+  font-family: $body-font-family;
+#hero{
+  .hero-img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) !important;
+  }
+}
+
+}
+
